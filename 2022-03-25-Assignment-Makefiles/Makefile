@@ -1,5 +1,11 @@
-thermistor.pdf: data.txt script.gp
+all: article.pdf
+	xdg-open article.pdf
+
+article.pdf: thermistor.png
+	pdflatex article.tex
+
+thermistor.png: data.txt script.gp
 	gnuplot script.gp
 
 clean:
-	rm -f *.pdf *.log 
+	rm -f *.png *.log *.aux *.tex~ *.pdf 
