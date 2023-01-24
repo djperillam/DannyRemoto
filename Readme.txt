@@ -1,3 +1,3 @@
-Nombre: Danny Julian Perilla Mikan
-Uso: Este repositorio se destina para cargar los codigos de forma locar y
-remota y poder tener un control de versiones.
+# Herramientas-computacionales-2022
+
+Códigos desarollados en la materia Herramientas computacionales. 
